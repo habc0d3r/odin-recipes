@@ -1,0 +1,47 @@
+* {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: gainsboro;
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 2px 2px 50px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 10px;
+  color: rgb(252, 124, 110);
+}
+
+img {
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 15px;
+  margin: 0 0 10px 10px;
+}
+
+.recipe-list {
+  font-size: large;
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
+  list-style: circle;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(55, 105, 255);
+}
